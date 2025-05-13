@@ -18,52 +18,44 @@
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/Enot2239/life-cli.git
 cd life-cli
+
+
 Install dependencies:
 
-bash
-Копировать
-Редактировать
 pip install -r requirements.txt
+
 Run the CLI:
 
-bash
-Копировать
-Редактировать
 python main.py --help
+
 🖥️ CLI Help Output
+
 General help
-bash
-Копировать
-Редактировать
+
 python main.py --help
+
 Task commands
-bash
-Копировать
-Редактировать
+
 python main.py task add "Buy groceries"
 python main.py task list
 python main.py task done 1
 python main.py task delete 1
+
 Password generation
-bash
-Копировать
-Редактировать
+
 python main.py pass generate --length 16 --symbols
 python main.py pass generate -l 20 --no-symbols
+
 Habit tracker
-bash
-Копировать
-Редактировать
+
 python main.py habit track reading
 python main.py habit history reading
 python main.py habit list
+
 📂 Project Structure
-arduino
-Копировать
-Редактировать
+
 life-cli/
 ├── app/
 │   ├── config.py
@@ -75,6 +67,7 @@ life-cli/
 ├── README.md
 └── requirements.txt
 💡 To Do
+
  Add weather and quote modules
 
  Pomodoro timer
